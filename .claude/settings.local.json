@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "mcp__plugin_voice_voice-tts__speak",
+      "Bash(ls -la \"C:\\\\Users\\\\N8\\\\claude-voice-mcp\\\\voice\\\\models\"\" 2>&1 || echo \"Directory does not exist or is empty \")",
+      "Bash(dir:*)",
+      "Bash(curl:*)",
+      "WebSearch",
+      "WebFetch(domain:pypi.org)",
+      "WebFetch(domain:github.com)",
+      "Bash(chmod:*)",
+      "Bash(powershell:*)",
+      "Bash(timeout 30 uv run:*)",
+      "Bash(uv run:*)",
+      "Bash(echo:*)",
+      "mcp__plugin_voice_voice-tts__set_default_voice",
+      "mcp__plugin_voice_voice-tts__list_voices",
+      "Bash(git -C \"C:/Users/N8/claude-voice-mcp\" init)",
+      "Bash(git -C \"C:/Users/N8/claude-voice-mcp\" lfs version:*)",
+      "Bash(git lfs install:*)",
+      "Bash(git lfs track:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

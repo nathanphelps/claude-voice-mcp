@@ -1,0 +1,13 @@
+{
+  "name": "local-voice",
+  "owner": {
+    "name": "N8"
+  },
+  "plugins": [
+    {
+      "name": "voice",
+      "source": "./voice",
+      "description": "Text-to-speech for Claude Code using Kokoro neural TTS."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "voice",
+  "description": "Text-to-speech for Claude Code using Kokoro neural TTS. Gives Claude a voice so it can speak responses aloud.",
+  "version": "1.0.0",
+  "author": {
+    "name": "N8"
+  }
+}

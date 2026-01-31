@@ -74,7 +74,7 @@ VOICES = {
 }
 
 # Session state
-_default_voice = "af_heart"
+_default_voice = "bm_fable"
 _kokoro = None
 
 
@@ -161,8 +161,7 @@ async def speak(text: str, voice: str = "", speed: float = 1.0) -> str:
     await asyncio.to_thread(sd.play, samples, sample_rate)
     await asyncio.to_thread(sd.wait)
 
-    preview = text[:80] + ("..." if len(text) > 80 else "")
-    return f"Spoke aloud ({use_voice}): {preview}"
+    return "ok"
 
 
 @mcp.tool()
